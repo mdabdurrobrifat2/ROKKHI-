@@ -46,10 +46,7 @@ def home():
     """
 
 @app.route('/blood')
-def blood():
-    return """
-    <h1 style='color:#00FF88;background:#0A0F1E;padding:20px;'>Blood Donor List</h1>
-    ...
-    """
+def blood()
+   ...
 
 app.run(host='0.0.0.0', port=5000)
