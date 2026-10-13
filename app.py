@@ -45,11 +45,11 @@ def home():
 </html>
     """
 
-app.run(host='0.0.0.0', port=5000)
 @app.route('/blood')
 def blood():
     return """
     <h1 style='color:#00FF88;background:#0A0F1E;padding:20px;'>Blood Donor List</h1>
-    <p style='padding:20px;'>Emergency Blood Needed - Contact: 01700000000</p>
-    <a href='/'>Back to Home</a>
+    ...
     """
+
+app.run(host='0.0.0.0', port=5000)
